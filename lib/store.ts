@@ -8,7 +8,6 @@ export interface Candidate {
 }
 
 export const CANDIDATES: Candidate[] = [
-  { id: "alpha", name: "Alpha", description: "Leading with vision and innovation", emoji: "🚀" },
-  { id: "beta", name: "Beta", description: "Building trust through reliability", emoji: "🛡️" },
-  { id: "gamma", name: "Gamma", description: "Growing together with creativity", emoji: "🌟" },
+  { id: "yes", name: "Yes", description: "I agree", emoji: "✅" },
+  { id: "no", name: "No", description: "I disagree", emoji: "❌" },
 ];
